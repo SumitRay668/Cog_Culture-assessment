@@ -25,7 +25,7 @@ def extract_claims(text):
 
 def verify_claims(claims):
     genai.configure(api_key=API_KEY)
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-1.5-flash-latest")
 
     results = []
 
